@@ -66,13 +66,16 @@ img {
 .main .title {
     color: #6C29AD;
     text-transform: uppercase;
+    margin-bottom: 0.25rem;
 }
 .main .field {
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 5px solid #6C29AD;
 }
-
+.main .field:last-child {
+    border-bottom: 0;
+}
 .main .board {
     text-transform: uppercase;
     font-weight: 600;
@@ -95,7 +98,9 @@ img {
     font-weight: 600;
     color: #000;
 }
-
+.education > div:first-child {
+    margin-bottom: 1rem;
+}
 .skills .topic {
     font-weight: 600;
 }
@@ -110,4 +115,16 @@ justify-content: flex-start;}
 
 .skills .name {
     color: #999;
+}
+
+.skills .colon {
+    margin-top: -0.5rem;
+}
+
+.award ul li{
+    list-style-type: none;
+    line-height: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
 }
